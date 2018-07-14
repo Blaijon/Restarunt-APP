@@ -7,7 +7,6 @@ var companyInfo ={
 
 var specialMenuData = [
   {
-      picture: ''
       title: 'Sirloin Steak',
       description:' Sirloin steak is one of the most flavorful cuts of beef.',
       price: '$25'
