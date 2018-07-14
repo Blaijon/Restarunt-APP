@@ -433,11 +433,7 @@ function Header(_ref) {
     (0, _hyperapp.h)(
       "div",
       { "class": "container" },
-      (0, _hyperapp.h)(
-        "div",
-        { "class": "logo" },
-        "Logos"
-      ),
+      (0, _hyperapp.h)("div", { "class": "logo" }),
       (0, _hyperapp.h)(
         "nav",
         null,

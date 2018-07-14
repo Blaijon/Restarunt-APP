@@ -1,12 +1,27 @@
+.container{
+  height: 100%;
+  width: 100%;
+}
 header{
   position: absolute;
   color: white;
   width: 100%;
-  padding: 20px;
+  padding: 66px;
   z-index: 20;
+  height: 300px;
+
   .logo{
-    display: inline-block;
-    // padding: 20px 10px;
+    display: inline;
+    width: 400px;
+    height: 100px;
+    padding: 54px 109px;
+    /* background: linear-gradient(135deg, rgba(0,0,0,0.2) 0, #002d77 100%); */
+    background-size: cover;
+    background-position: center;
+    background-image: url("http://www.t-bone.es/images/menu/menu.png");
+    background-repeat: no-repeat;
+    margin: px 40px;
+    margin-top: 30p
   }
   nav{
     display: inline-block;
