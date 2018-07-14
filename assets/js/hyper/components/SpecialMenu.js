@@ -7,7 +7,7 @@ export default function SpecialMenu({state, actions}) {
       return(
         <div class="col-md-4">
           <div class="box">
-            <div class="box-img">
+            <div class="box-img" style= {{background:`url(${item.picture}) no-repeat center center / cover`}}>
                <div class="price-circle">{item.price}</div>
           </div>
 

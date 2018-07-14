@@ -118,14 +118,20 @@ var companyInfo = {
 };
 
 var specialMenuData = [{
+  picture: 'https://assets.epicurious.com/photos/57bde9fc354f42d45822ea9f/master/pass/top-sirloin-steak-with-bell-pepper-and-onion-saute.jpg',
+
   title: 'Sirloin Steak',
   description: ' Sirloin steak is one of the most flavorful cuts of beef.',
   price: '$25'
 }, {
+  picture: 'https://res.cloudinary.com/quintet/image/private/c_fill,g_south,h_1536,w_1536,cs_no_cmyk/ymdu3kgqwnrbvjli8u8v.jpg',
+
   title: 'T-bone Steak',
   description: 'T-bone are steaks of beef cut from the short loin.',
   price: '$15'
 }, {
+  picture: 'https://www.slenderkitchen.com/sites/default/files/recipe_images/broiled-flank-steak.jpg',
+
   title: 'Flank Steak',
   description: 'This grilled Marinated Flank Steak melts in your mouth !',
   price: '$35'
@@ -136,31 +142,31 @@ var reviewsData = [{
   author: 'Joe Bastiachi',
   authorInfo: 'Winner Of The Chef Masters',
   highlight: 'Best Restarunt in the L.A area!',
-  review: 'Lorem ipsum dolor amet synth adaptogen fingerstache, iPhone typewriter yr williamsburg affogato small batch kogi artisan ethical intelligentsia beard.'
+  review: 'Go time for the final four cooks in the 2017 Daily Herald Cook of the Week Challenge. See them battle it out in the live cook-off Nov. 13 at Itascas Westin Chicago Northwest.'
 }, {
   company: 'HBO',
   author: 'Joe Bastiachi',
   authorInfo: 'Winner Of The Chef Masters',
   highlight: 'Best Restarunt in the L.A area!',
-  review: 'Lorem ipsum dolor amet synth adaptogen fingerstache, iPhone typewriter yr williamsburg affogato small batch kogi artisan ethical intelligentsia beard.'
+  review: 'Ben Blakes Roasted Kabocha Squash and Kale toasted Ravioli with a spicy lemon sardine cream sauce and toasted parmesan bread crumbs'
 }, {
   company: 'CW',
   author: 'Joe Bastiachi',
   authorInfo: 'Winner Of The Chef Masters',
   highlight: 'Best Restarunt in the L.A area!',
-  review: 'Lorem ipsum dolor amet synth adaptogen fingerstache, iPhone typewriter yr williamsburg affogato small batch kogi artisan ethical intelligentsia beard. Banjo iceland shaman lumbersexual dreamcatcher Lorem ipsum dolor amet synth adaptogen fingerstache, iPhone typewriter yr williamsburg affogato small batch kogi artisan ethical intelligentsia beard.'
+  review: 'Elizabeth Schuttlers Spicy Sardine and Kale Meatballs on Top of Homemade Wheat Bread Pasta with a Creamy Kabocha Squash Sauce and Garnish of Crispy Kale and Breadcrum'
 }, {
   company: 'The Food Network',
   author: 'Joe Bastiachi',
   authorInfo: 'Winner Of The Chef Masters',
   highlight: 'Best Restarunt in the L.A area!',
-  review: 'Lorem ipsum dolor amet synth adaptogen fingerstache, iPhone typewriter yr williamsburg affogato small batch kogi artisan ethical intelligentsia beard. Banjo iceland shaman lumbersexual, dreamcatcher Lorem ipsum dolor amet synth adaptogen fingerstache, iPhone typewriter yr williamsburg affogato small batch kogi artisan ethical intelligentsia beard. Banjo iceland shaman lumbersexual, dreamcatcher Lorem ipsum dolor amet synth adaptogen fingerstache, iPhone typewriter yr williamsburg affogato small batch kogi artisan ethical intelligentsia beard.'
+  review: 'Ben Blakes Roasted Kabocha Squash and Kale toasted Ravioli with a spicy lemon sardine cream sauce and toasted parmesan bread crumbs'
 }, {
   company: 'The NewYork Times',
   author: 'Joe Bastiachi',
   authorInfo: 'Winner Of The Chef Masters',
   highlight: 'Best Restarunt in the L.A area!',
-  review: 'Lorem ipsum dolor amet synth adaptogen fingerstache, iPhone typewriter yr williamsburg affogato small batch kogi artisan ethical intelligentsia beard.'
+  review: 'Elizabeth Schuttlers Spicy Sardine and Kale Meatballs on Top of Homemade Wheat Bread Pasta with a Creamy Kabocha Squash Sauce and Garnish of Crispy Kale and Breadcrum'
 }];
 
 var randomQuoteData = [{
@@ -506,7 +512,7 @@ function OurStory(_ref) {
           (0, _hyperapp.h)(
             "p",
             null,
-            " $grid-columns: 12; $grid-max-width: 1200px; //breakpoint-small $breakpoint-xs: \"only screen and (min-width: 0px)\"; $breakpoint-small: \"only screen and (min-width: 451px)\"; $breakpoint-medium: \"only screen and (min-width: 768px)\"; $breakpoint-large: \"only screen and (min-width: 1008px)\"; $breakpoint-xl: \"only screen and (min-width: 1300px)\";"
+            "The story of art and the story of food are in fact intertwined. Both became sophisticated at the same time. In the middle ages feasting was rich, riotous and crude. Pies shaped like swans disgorged dozens of smaller birds. People ate with their fingers. Art too was simple and when painters showed food there was little subtlety."
           ),
           (0, _hyperapp.h)(
             "div",
@@ -712,7 +718,7 @@ function SpecialMenu(_ref) {
           { "class": "box" },
           (0, _hyperapp.h)(
             "div",
-            { "class": "box-img" },
+            { "class": "box-img", style: { background: "url(" + item.picture + ") no-repeat center center / cover" } },
             (0, _hyperapp.h)(
               "div",
               { "class": "price-circle" },

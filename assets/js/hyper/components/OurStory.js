@@ -8,13 +8,7 @@ export default function OurStory({state, actions}) {
         <div class="col-md-6">
           <h5 class="comp-title"></h5>
           <h2>Cooking is the art of adjustment</h2>
-          <p> $grid-columns: 12;
-    $grid-max-width: 1200px; //breakpoint-small
-    $breakpoint-xs: "only screen and (min-width: 0px)";
-    $breakpoint-small: "only screen and (min-width: 451px)";
-    $breakpoint-medium: "only screen and (min-width: 768px)";
-    $breakpoint-large: "only screen and (min-width: 1008px)";
-    $breakpoint-xl: "only screen and (min-width: 1300px)";</p>
+          <p>The story of art and the story of food are in fact intertwined. Both became sophisticated at the same time. In the middle ages feasting was rich, riotous and crude. Pies shaped like swans disgorged dozens of smaller birds. People ate with their fingers. Art too was simple and when painters showed food there was little subtlety.</p>
           <div class="quote">
             "The best steak in the month" - <strong>Thoras Eggsy</strong>
           </div>
