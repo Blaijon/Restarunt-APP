@@ -7,19 +7,20 @@ var companyInfo ={
 
 var specialMenuData = [
   {
-      title: 'Super BBQ Grill No Smoke',
-      description:'Fried eeggs, Steak, Baked potato or french fries',
+      picture: ''
+      title: 'Sirloin Steak',
+      description:' Sirloin steak is one of the most flavorful cuts of beef.',
       price: '$25'
   },
   {
-      title: 'Chicken Fingers',
-      description:'Fried eeggs, Steak, Baked potato or french fries',
+      title: 'T-bone Steak',
+      description:'T-bone are steaks of beef cut from the short loin.',
       price: '$15'
   },
   {
-      title: 'All American Hamburger',
-      description:'Fried eeggs, Steak, Baked potato or french fries',
-      price: '$30'
+      title: 'Flank Steak',
+      description:'This grilled Marinated Flank Steak melts in your mouth !',
+      price: '$35'
   }
 ]
 

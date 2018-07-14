@@ -5,7 +5,7 @@ export default function ContactUs({state, actions}) {
     <section id="ContactUs" class="texturebg">
     <div class="container">
     <h5 class="comp-title">Contact Us</h5>
-    <h2>Deliciouds Flavor of Water</h2>
+    <h2>Deliciouds Flavor of Steaks</h2>
           <div class="box">
             <div class="row">
               <div class="col-md-6">
