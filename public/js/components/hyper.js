@@ -747,7 +747,7 @@ function SpecialMenu(_ref) {
       (0, _hyperapp.h)(
         "h2",
         null,
-        "Delicious Flavor of SteaksS"
+        "Delicious Flavor of Steaks"
       ),
       (0, _hyperapp.h)(
         "div",

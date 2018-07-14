@@ -22,7 +22,7 @@ export default function SpecialMenu({state, actions}) {
     <section id="SpecialMenu" class="texturebg">
     <div class="container">
     <h5 class="comp-title">Special Menu</h5>
-    <h2>Delicious Flavor of SteaksS</h2>
+    <h2>Delicious Flavor of Steaks</h2>
     <div class="row boxes">
     {loopMenu()}
 
